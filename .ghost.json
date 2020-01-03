@@ -4,7 +4,7 @@
     "contentApiKey": "d1360e0c3f8a3e77cfb806ed1e"
   },
   "production": {
-    "apiUrl": "https://091f5516.ngrok.io",
+    "apiUrl": "https://041f718b.ngrok.io",
     "contentApiKey": "d1360e0c3f8a3e77cfb806ed1e"
   }
 }
