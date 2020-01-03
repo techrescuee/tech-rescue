@@ -1,10 +1,10 @@
 module.exports = {
-    siteUrl: `https://gatsby.ghost.org`, // Site domain. Do not include a trailing slash!
+    siteUrl: `https://techrescue.ml`, // Site domain. Do not include a trailing slash!
 
     postsPerPage: 12, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
     siteTitleMeta: `Tech Rescue`, // This allows an alternative site title for meta data for pages.
-    siteDescriptionMeta: `A starter template to build amazing static websites with Ghost and Gatsby`, // This allows an alternative site description for meta data for pages.
+    siteDescriptionMeta: `Latest technology blogs and tutorials to keep you updated in this competitive and rapidly changing tech world.`, // This allows an alternative site description for meta data for pages.
 
     shareImageWidth: 1000, // Change to the width of your default share image
     shareImageHeight: 523, // Change to the height of your default share image

@@ -43,6 +43,12 @@ module.exports = {
          *  Content Plugins
          */
         {
+            resolve: `gatsby-plugin-disqus`,
+            options: {
+                shortname: `techrescue`
+            }
+        },
+        {
             resolve: `gatsby-source-filesystem`,
             options: {
                 path: path.join(__dirname, `src`, `pages`),

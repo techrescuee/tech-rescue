@@ -34,7 +34,16 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                 <style type="text/css">{`${site.codeinjection_styles}`}</style>
                 <body className={bodyClass} />
             </Helmet>
-
+            {/* <!-- Google Tag Manager (noscript) --> */}
+            <noscript>
+                <iframe
+                    src="https://www.googletagmanager.com/ns.html?id=GTM-PJV9J58"
+                    height="0"
+                    width="0"
+                    style="display:none;visibility:hidden"
+                ></iframe>
+            </noscript>
+            {/* <!-- End Google Tag Manager (noscript) --> */}
             <div className="viewport">
                 <div className="viewport-top">
                     {/* The main header section on top of the screen */}
@@ -151,16 +160,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     <footer className="site-foot">
                         <div className="site-foot-nav container">
                             <div className="site-foot-nav-left">
-                                <Link to="/">{site.title}</Link> © 2019 &mdash;
-                                Published with{" "}
-                                <a
-                                    className="site-foot-nav-item"
-                                    href="https://ghost.org"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    Ghost
-                                </a>
+                                <Link to="/">{site.title}</Link> © 2020
                             </div>
                             <div className="site-foot-nav-right">
                                 <Navigation
